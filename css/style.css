@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+:root {
+    --primaryRed: hsl(0, 100%, 74%);
+    --primaryGreen: hsl(154, 59%, 51%);
+    --accentBlue: hsl(248, 32%, 49%);
+    --neutralDarkBlue: hsl(249, 10%, 26%);
+    --neautralGrayishBlue: hsl(246, 25%, 77%);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +21,7 @@
 }
 
 .attribution a {
-    color: hsl(179, 62%, 43%);
+    color: var(--primaryGreen);
 }
 
 .attribution a:hover {
